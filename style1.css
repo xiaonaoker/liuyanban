@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+#write{
+    border:1px solid #ccc;
+    height:190px;
+    width:800px;
+}
+h2{
+    margin:10px auto 0 20px;
+}
+#write_area{
+    margin:10px;
+}
+.ipt{
+    resize:none;
+    color:#666;
+    height:75px;
+    width:420px;
+    font-size:18px;
+    text-indent:10px;
+    letter-spacing:1.1px;
+}
+#sub{
+    display: inline-block;
+    height:40px;
+    width:56px;
+    border:1px solid #fff;
+    line-height: 40px;
+    background-color:#ccc;
+    text-align: center;
+    margin-left:20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#number1{
+    border:1px solid greenyellow;
+    height:26px;
+    width:60px;
+    float:left;
+    margin-left:370px;
+    margin-top:-5px;
+    text-align: center;
+    line-height:26px;
+    color:green;
+}
+
+#show_area{
+    min-height:300px;
+    width:800px;
+    border:1px solid #ccc;
+    margin-top:5px;
+}
+.show_board{
+    height:100px;
+    width:600px;
+    border:1px solid #ccc;
+    margin:10px auto 5px 10px;
+    color:#666;
+    letter-spacing:2px;
+    /*text-align: center;*/
+    text-indent:20px;
+    line-height:60px;
+    display:inline-block;
+    font-family:宋体;
+    font-size: 20px;
+    font-weight:bold;
+}
+#number2{
+    /*border:1px solid black;*/
+    height:20px;
+    width:100px;
+    float:right;
+    /*overflow: hidden;*/
+    /*display:inline-block;*/
+    margin:15px 20px auto auto;
+}
+#count2{
+    color:orange;
+}
